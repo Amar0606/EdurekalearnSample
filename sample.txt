@@ -1,1 +1,2 @@
 sample text file now
+sample text file text
