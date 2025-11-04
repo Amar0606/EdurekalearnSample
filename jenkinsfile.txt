@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+    options { preserveStashes(buildCount: 5) }
+
+    stages {
+        stage('Step 1 - Build') {
+            steps {
+                echo "Building project..."
+                
+            }
+        }
+
+        stage('Step 2 - Test') {
+            steps {
+                echo "Running tests..."
+            
+            }
+        }
+
+        stage('Step 3 - Deploy') {
+            steps {
+                echo "Deploying project..."
+                
+            }
+        }
+    }
+}
