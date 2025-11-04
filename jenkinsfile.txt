@@ -1,25 +1,33 @@
 pipeline {
     agent any
-    options { preserveStashes(buildCount: 5) }
+tools {
+  maven 'mvn_home'
+}
 
     stages {
-        stage('Step 1 - Build') {
+        stage('SCM-Checkout') {
             steps {
-                echo "Building project..."
+                git branch: 'main', credentialsId: '8e926820-8675-416e-95b3-1bce78bd94d4', url: 'https://github.com/Amar0606/EdurekalearnSample.git'
                 
             }
         }
 
-        stage('Step 2 - Test') {
+        stage('Maven-clean') {
             steps {
-                echo "Running tests..."
+               mvn clean
+            
+            }
+        }
+        stage('Maven-Build') {
+            steps {
+               mvn build
             
             }
         }
 
         stage('Step 3 - Deploy') {
             steps {
-                echo "Deploying project..."
+                mvn deploy
                 
             }
         }
