@@ -12,7 +12,7 @@ pipeline {
 
         stage('Step 2 - Test') {
             steps {
-                echo "Running tests..."
+                eco "Running tests..."
             
             }
         }
