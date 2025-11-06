@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('clean workspace'){
+            steps{
+                cleanWs()
+            }
+        }
+        stage('git checkout') {
+            steps {
+                git branch: 'main', credentialsId: 'GitCredentials', url: 'https://github.com/Amar0606/EdurekalearnSample.git'
+            }
+        }
+	 stage('Test Execution') {
+            steps {
+                sh '/root/jmeter/apache-jmeter-5.6.3/bin/jmeter.sh -n -t Scripts/Dummy.jmx -l results1.jtl'
+            }
+        }
+stage("Report Generation")
+{
+steps {
+ perfReport filterRegex: '', showTrendGraphs: true, sourceDataFiles: '**/*.jtl'
+}
+}
+   }
+    
+    }
