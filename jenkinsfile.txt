@@ -1,23 +1,31 @@
 pipeline {
-    agent any
-tools {
-  maven 'mvn_home'
+    agent {
+  label 'JMeter'
 }
-
 
     stages {
-        stage('SCM-Checkout') {
-            steps {
-                git branch: 'main', credentialsId: 'GitCredentials', url: 'https://github.com/Amar0606/MavenBuild.git'                
+        stage('clean workspace'){
+            steps{
+                cleanWs()
             }
         }
-
-        stage('Maven-clean') {
+        stage('git checkout') {
             steps {
-               sh'mvn clean'
-            
+                git branch: 'main', credentialsId: 'GitCredentials', url: 'https://github.com/Amar0606/EdurekalearnSample.git'
             }
         }
+	 stage('Test Execution') {
+            steps {
+                bat 'C:\\Users\\sujia\\OneDrive\\Desktop\\apache-jmeter-5.6.3\\apache-jmeter-5.6.3\\bin\\jmeter.bat -n -t Scripts/Dummy.jmx -l results1.jtl'
+            }
         }
-    }
+stage("Report Generation")
+{
+steps {
+ perfReport filterRegex: '', showTrendGraphs: true, sourceDataFiles: '**/*.jtl'
 }
+}
+   }
+    
+    }
+
