@@ -4,30 +4,30 @@ tools {
   maven 'mvn_home'
 }
 
+
     stages {
         stage('SCM-Checkout') {
             steps {
-                git branch: 'main', credentialsId: '8e926820-8675-416e-95b3-1bce78bd94d4', url: 'https://github.com/Amar0606/EdurekalearnSample.git'
-                
+                git branch: 'main', credentialsId: 'GitCredentials', url: 'https://github.com/Amar0606/MavenBuild.git'                
             }
         }
 
         stage('Maven-clean') {
             steps {
-               mvn clean
+               sh'mvn clean'
             
             }
         }
         stage('Maven-Build') {
             steps {
-               mvn build
+               sh'mvn build'
             
             }
         }
 
-        stage('Step 3 - Deploy') {
+        stage('Step 3 - Package') {
             steps {
-                mvn deploy
+                sh'mvn package'
                 
             }
         }
