@@ -18,18 +18,6 @@ tools {
             
             }
         }
-        stage('Maven-Build') {
-            steps {
-               sh'mvn build'
-            
-            }
-        }
-
-        stage('Step 3 - Package') {
-            steps {
-                sh'mvn package'
-                
-            }
         }
     }
 }
