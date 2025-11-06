@@ -1,114 +1,39 @@
-2025-10-23 12:09:43,391 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-10-23 12:09:43,413 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2025-10-23 12:09:43,415 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2025-10-23 12:09:43,434 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-10-23 12:09:43,434 INFO o.a.j.JMeter: Version 5.6.3
-2025-10-23 12:09:43,434 INFO o.a.j.JMeter: java.version=25
-2025-10-23 12:09:43,434 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2025-10-23 12:09:43,434 INFO o.a.j.JMeter: os.name=Windows 11
-2025-10-23 12:09:43,434 INFO o.a.j.JMeter: os.arch=amd64
-2025-10-23 12:09:43,435 INFO o.a.j.JMeter: os.version=10.0
-2025-10-23 12:09:43,435 INFO o.a.j.JMeter: file.encoding=UTF-8
-2025-10-23 12:09:43,435 INFO o.a.j.JMeter: java.awt.headless=null
-2025-10-23 12:09:43,435 INFO o.a.j.JMeter: Max memory     =1073741824
-2025-10-23 12:09:43,436 INFO o.a.j.JMeter: Available Processors =16
-2025-10-23 12:09:43,453 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-10-23 12:09:43,453 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-10-23 12:09:43,453 INFO o.a.j.JMeter: JMeterHome=C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3
-2025-10-23 12:09:43,455 INFO o.a.j.JMeter: user.dir  =C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
-2025-10-23 12:09:43,455 INFO o.a.j.JMeter: PWD       =C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
-2025-10-23 12:09:43,486 INFO o.a.j.JMeter: IP: 192.168.1.74 Name: SujiAmar FullName: 192.168.1.74
-2025-10-23 12:09:43,513 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2025-10-23 12:09:43,780 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
-2025-10-23 12:09:44,736 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:09:44,826 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:09:44,833 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:09:44,848 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:09:44,932 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:09:44,937 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:09:44,939 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:09:44,940 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:09:45,006 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar and C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar
-2025-10-23 12:09:45,073 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_11-02680470893f614c9095ef1928921a8b-gui
-2025-10-23 12:09:46,729 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-additional=2.0, jpgc-casutg=3.1.1, jpgc-plugins-manager=1.10, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
-2025-10-23 12:09:46,731 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
-2025-10-23 12:10:00,849 INFO o.a.j.s.FileServer: Default base='C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
-2025-10-23 12:10:00,851 INFO o.a.j.g.a.Load: Loading file: C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\JPetstore.jmx
-2025-10-23 12:10:00,852 INFO o.a.j.s.FileServer: Set new base='C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
-2025-10-23 12:10:01,137 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-10-23 12:10:01,144 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-10-23 12:10:01,146 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-10-23 12:10:01,148 INFO o.a.j.s.SaveService: Loading file: C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\JPetstore.jmx
-2025-10-23 12:10:01,178 WARN o.j.r.p.TestPlanAnalyzer: Cannot parse file: C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\JPetstore.jmx
-org.xml.sax.SAXParseException: Character reference "&#x0" is an invalid XML character.
-	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
-	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
-	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122) ~[?:?]
-	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.getNodeListWithClassNames(TestPlanAnalyzer.java:130) [jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.analyze(TestPlanAnalyzer.java:37) [jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.plugins.PluginSuggester.analyzeTestPlan(PluginSuggester.java:51) [jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.plugins.PluginSuggester.findPluginsToInstall(PluginSuggester.java:44) [jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.plugins.PluginSuggester.checkAndSuggest(PluginSuggester.java:28) [jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.logging.LoggerAppender.append(LoggerAppender.java:33) [jmeter-plugins-manager-1.10.jar:?]
-	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:705) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:663) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:639) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:575) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:92) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.core.Logger.log(Logger.java:169) [log4j-core-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2933) [log4j-api-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2886) [log4j-api-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2868) [log4j-api-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2664) [log4j-api-2.22.1.jar:2.22.1]
-	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:2429) [log4j-api-2.22.1.jar:2.22.1]
-	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:184) [log4j-slf4j-impl-2.22.1.jar:2.22.1]
-	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:425) [ApacheJMeter_core.jar:5.6.3]
-	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:131) [ApacheJMeter_core.jar:5.6.3]
-	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:103) [ApacheJMeter_core.jar:5.6.3]
-	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:74) [ApacheJMeter_core.jar:5.6.3]
-	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) [ApacheJMeter_core.jar:5.6.3]
-	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:83) [ApacheJMeter_core.jar:5.6.3]
-	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:65) [ApacheJMeter_core.jar:5.6.3]
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:323) [?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723) [?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
-2025-10-23 12:10:01,205 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2025-10-23 12:10:01,213 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-10-23 12:10:01,213 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-10-23 12:10:01,213 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-10-23 12:10:01,213 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-10-23 12:10:01,213 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-10-23 12:10:01,213 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-10-23 12:10:01,489 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2025-10-23 12:10:01,489 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\proxyserver.jks
-2025-10-23 12:10:01,732 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2025-10-23 12:10:01,733 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2025-10-23 12:10:01,733 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2025-10-23 12:10:01,733 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2025-10-23 12:10:01,850 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,853 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,855 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,856 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,872 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,876 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,878 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,878 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,946 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,949 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,951 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,951 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,961 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,964 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,966 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,967 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-10-23 12:10:01,996 INFO o.a.j.s.FileServer: Set new base='C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2025-11-06 21:56:39,415 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-11-06 21:56:39,518 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2025-11-06 21:56:39,519 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: Version 5.6.3
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: java.version=25
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: os.name=Windows 11
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: os.arch=amd64
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: os.version=10.0
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: java.awt.headless=null
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-11-06 21:56:39,540 INFO o.a.j.JMeter: Available Processors =16
+2025-11-06 21:56:39,558 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-11-06 21:56:39,558 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-11-06 21:56:39,558 INFO o.a.j.JMeter: JMeterHome=C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2025-11-06 21:56:39,559 INFO o.a.j.JMeter: user.dir  =C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2025-11-06 21:56:39,559 INFO o.a.j.JMeter: PWD       =C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2025-11-06 21:56:40,658 INFO o.a.j.JMeter: IP: 192.168.1.74 Name: SujiAmar FullName: SujiAmar.home
+2025-11-06 21:56:40,687 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2025-11-06 21:56:41,019 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
+2025-11-06 21:56:42,015 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,022 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,095 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,100 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,113 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,170 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,172 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,175 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,177 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,178 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-06 21:56:42,363 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_11-e2f466e2d0360204caf0894759ecee4a-gui
+2025-11-06 21:56:45,767 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-additional=2.0, jpgc-functions=2.2, jpgc-casutg=3.1.1, jpgc-dummy=0.4, jpgc-plugins-manager=1.11, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2025-11-06 21:59:47,193 INFO o.a.j.s.FileServer: Default base='C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2025-11-06 21:59:47,193 INFO o.a.j.s.FileServer: Set new base='C:\Users\sujia\OneDrive\Desktop\apache-jmeter-5.6.3\Scripts'
+2025-11-06 21:59:47,497 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-11-06 21:59:47,504 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-11-06 21:59:47,506 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
