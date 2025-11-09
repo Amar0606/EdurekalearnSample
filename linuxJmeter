@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-  label 'JMeter'
-}
+    agent any
 
     stages {
         stage('clean workspace'){
@@ -16,7 +14,7 @@ pipeline {
         }
 	 stage('Test Execution') {
             steps {
-                bat 'C:\\Users\\sujia\\OneDrive\\Desktop\\apache-jmeter-5.6.3\\apache-jmeter-5.6.3\\bin\\jmeter.bat -n -t Scripts/Dummy.jmx -l results1.jtl'
+                sh '/root/jmeter/apache-jmeter-5.6.3/bin/jmeter.sh -n -t Scripts/Dummy.jmx -l results1.jtl'
             }
         }
 stage("Report Generation")
@@ -28,4 +26,3 @@ steps {
    }
     
     }
-
